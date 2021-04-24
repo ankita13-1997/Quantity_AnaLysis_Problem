@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.Ankita.QuantityMeasuremnet.QuantityMeasurementTestCLass" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-04-24T10:52:18" hostname="DESKTOP-FCSHS5L" time="0.006">
+<testsuite name="com.Ankita.QuantityMeasuremnet.QuantityMeasurementTestCLass" tests="9" skipped="0" failures="0" errors="0" timestamp="2021-04-24T21:29:39" hostname="DESKTOP-FCSHS5L" time="0.036">
   <properties/>
-  <testcase name="When0Inch_AND_nullShouldReturnFalse" classname="com.Ankita.QuantityMeasuremnet.QuantityMeasurementTestCLass" time="0.006"/>
+  <testcase name="When0Inch_AND_nullShouldReturnFalse" classname="com.Ankita.QuantityMeasuremnet.QuantityMeasurementTestCLass" time="0.008"/>
+  <testcase name="When0Feet_AND_1FeetReturnEqual" classname="com.Ankita.QuantityMeasuremnet.QuantityMeasurementTestCLass" time="0.0"/>
+  <testcase name="When0Feet_AND_nullShouldReturnEqual" classname="com.Ankita.QuantityMeasuremnet.QuantityMeasurementTestCLass" time="0.0"/>
+  <testcase name="When0Feet_AND_0FeetShouldReturnEqual" classname="com.Ankita.QuantityMeasuremnet.QuantityMeasurementTestCLass" time="0.001"/>
+  <testcase name="When0Feet_AND_VAlue_withReferencehouldReturnEqual" classname="com.Ankita.QuantityMeasuremnet.QuantityMeasurementTestCLass" time="0.002"/>
+  <testcase name="When0Inch_AND_referanceShouldReturnFalse" classname="com.Ankita.QuantityMeasuremnet.QuantityMeasurementTestCLass" time="0.001"/>
+  <testcase name="When0Inch_AND_0InchShouldReturnEqual" classname="com.Ankita.QuantityMeasuremnet.QuantityMeasurementTestCLass" time="0.002"/>
+  <testcase name="When0Inch_AND_1INchhouldReturnNotEqual" classname="com.Ankita.QuantityMeasuremnet.QuantityMeasurementTestCLass" time="0.002"/>
+  <testcase name="When0Inch_AND_1FeethouldReturnNotEqual" classname="com.Ankita.QuantityMeasuremnet.QuantityMeasurementTestCLass" time="0.002"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
