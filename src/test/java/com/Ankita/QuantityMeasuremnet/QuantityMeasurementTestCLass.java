@@ -51,4 +51,17 @@ public class QuantityMeasurementTestCLass {
         Assert.assertEquals(inch1,inch2);
 
     }
+
+    @Test
+    public void When0Inch_AND_nullShouldReturnFalse(){
+        Inch inch1= new Inch(0.0);
+        boolean check =inch1.equals(null);
+        Assert.assertFalse(check);
+
+
+
+
+    }
+
+    
 }
