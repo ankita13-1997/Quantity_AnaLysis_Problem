@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.Ankita.QuantityMeasuremnet.QuantityMeasurementTestCLass" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-04-24T07:54:42" hostname="DESKTOP-FCSHS5L" time="0.007">
+<testsuite name="com.Ankita.QuantityMeasuremnet.QuantityMeasurementTestCLass" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-04-24T10:31:48" hostname="DESKTOP-FCSHS5L" time="0.024">
   <properties/>
-  <testcase name="When0Feet_AND_0FeetShouldReturnEqual" classname="com.Ankita.QuantityMeasuremnet.QuantityMeasurementTestCLass" time="0.007"/>
+  <testcase name="When0Feet_AND_nullShouldReturnEqual" classname="com.Ankita.QuantityMeasuremnet.QuantityMeasurementTestCLass" time="0.024"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
