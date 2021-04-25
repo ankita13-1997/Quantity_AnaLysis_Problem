@@ -109,6 +109,12 @@ public class QuantityMeasuremnetTestClassFinal {
         boolean checkIt = value1.equals(null);
         Assert.assertFalse(checkIt);
     }
+    @Test
+    public void When0yard_AND_ReferenceShouldReturnFalse() {
+        QuantityMeasurement value1 =new QuantityMeasurement(0,MeasurementLength.YARD);
+        boolean checkIt = value1.equals(0);
+        Assert.assertFalse(checkIt);
+    }
 
 
 
