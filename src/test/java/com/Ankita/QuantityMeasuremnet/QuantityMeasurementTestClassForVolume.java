@@ -110,6 +110,13 @@ public class QuantityMeasurementTestClassForVolume {
 
     }
 
+    @Test
+    public void When0ML_AND_nullValueShouldReturnFalse(){
+        QuantityMeasurement value1 =new QuantityMeasurement(0,MeasurementVolume.MILLILITER);
+        boolean checkIt = value1.equals(null);
+        Assert.assertFalse(checkIt);
+    }
+
 
 
 
