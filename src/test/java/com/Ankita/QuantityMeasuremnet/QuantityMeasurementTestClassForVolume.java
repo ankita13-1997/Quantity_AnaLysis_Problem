@@ -47,6 +47,15 @@ public class QuantityMeasurementTestClassForVolume {
 
     }
 
+    @Test
+    public void When0Liters_AND_nullValueShouldReturnFalse(){
+        QuantityMeasurement value1 =new QuantityMeasurement(0,MeasurementVolume.LITRE);
+        boolean checkit=value1.equals(null);
+        Assert.assertFalse(checkit);
+
+
+    }
+
 
 
 
