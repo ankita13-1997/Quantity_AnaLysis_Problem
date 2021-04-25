@@ -141,14 +141,24 @@ public class QuantityMeasurementTestClassForVolume {
     }
 
     @Test
-    public void When1L_AND_0MLShouldReturnFalse(){
+    public void When1L_AND_1MLShouldReturnFalse(){
         QuantityMeasurement value1 =new QuantityMeasurement(1,MeasurementVolume.LITRE);
         QuantityMeasurement value2 =new QuantityMeasurement(1,MeasurementVolume.MILLILITER);
         boolean checkIt = value1.compare(value2);
         Assert.assertFalse(checkIt);
     }
 
+    @Test
+    public void When1L_AND_1000MLShouldReturnTrue(){
+        QuantityMeasurement value1 =new QuantityMeasurement(1,MeasurementVolume.LITRE);
+        QuantityMeasurement value2 =new QuantityMeasurement(1000,MeasurementVolume.MILLILITER);
+        boolean checkIt = value1.compare(value2);
+        Assert.assertTrue(checkIt);
+    }
+
     
+
+
 
 
 
