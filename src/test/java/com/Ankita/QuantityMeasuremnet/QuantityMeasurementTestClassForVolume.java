@@ -132,6 +132,16 @@ public class QuantityMeasurementTestClassForVolume {
         Assert.assertTrue(checkIt);
     }
 
+    @Test
+    public void When0ML_AND_0LShouldReturnTrue(){
+        QuantityMeasurement value1 =new QuantityMeasurement(0,MeasurementVolume.LITRE);
+        QuantityMeasurement value2 =new QuantityMeasurement(0,MeasurementVolume.MILLILITER);
+        boolean checkIt = value1.compare(value2);
+        Assert.assertTrue(checkIt);
+    }
+
+    
+
 
 
 
