@@ -14,4 +14,11 @@ public class QuantityMeasurementTestClassForTemprature {
 
 
     }
+
+    @Test
+    public void When0celsius_AND_nullShouldReturnFalse() {
+        QuantityMeasurement value1 = new QuantityMeasurement(0,MeasurementTemprature.CELSIUS);
+        boolean checkEqual=value1.equals(null);
+        Assert.assertFalse(checkEqual);
+    }
 }
