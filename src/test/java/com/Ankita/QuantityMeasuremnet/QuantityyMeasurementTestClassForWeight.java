@@ -105,4 +105,12 @@ public class QuantityyMeasurementTestClassForWeight {
 
     }
 
+    @Test
+    public void When0Tones_AND_NullShouldReturnfalse(){
+        QuantityMeasurement value1 =new QuantityMeasurement(0,MeasurementWeight.TONE);
+        boolean ischeck=value1.equals(null);
+        Assert.assertFalse(ischeck);
+
+    }
+
 }
