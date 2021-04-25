@@ -117,11 +117,23 @@ public class QuantityMeasuremnetTestClassFinal {
     }
 
     @Test
-    public void When0yard_AND_1YardShouldReturnEquals() {
+    public void When0yard_AND_1YardShouldReturnNotEquals() {
         QuantityMeasurement value1 =new QuantityMeasurement(0,MeasurementLength.YARD);
         QuantityMeasurement value2 =new QuantityMeasurement(1,MeasurementLength.YARD);
         Assert.assertNotEquals(value1,value2);
     }
+
+
+    @Test
+    public void When0Feet_Equals_0YardShouldReturnTrue() {
+        QuantityMeasurement value1 =new QuantityMeasurement(0,MeasurementLength.FEET);
+        QuantityMeasurement value2 =new QuantityMeasurement(0,MeasurementLength.YARD);
+        boolean checkIt=value1.compare(value2);
+        Assert.assertTrue(checkIt);
+    }
+
+
+
 
 
 }
