@@ -113,4 +113,12 @@ public class QuantityyMeasurementTestClassForWeight {
 
     }
 
+    @Test
+    public void When0Tone_AND_ReferenceValueShouldReturnfalse(){
+        QuantityMeasurement value1 =new QuantityMeasurement(0,MeasurementWeight.TONE);
+        boolean ischeck=value1.equals(0);
+        Assert.assertFalse(ischeck);
+
+    }
+
 }
