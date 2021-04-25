@@ -6,3 +6,5 @@ com/Ankita/QuantityMeasuremnet/QuantityMeasurementTestClassForVolume.java
  com.Ankita.QuantityMeasuremnet.QuantityMeasurementTestClassForVolume
 com/Ankita/QuantityMeasuremnet/QuantityyMeasurementTestClassForWeight.java
  com.Ankita.QuantityMeasuremnet.QuantityyMeasurementTestClassForWeight
+com/Ankita/QuantityMeasuremnet/QuantityMeasurementTestClassForTemprature.java
+ com.Ankita.QuantityMeasuremnet.QuantityMeasurementTestClassForTemprature
