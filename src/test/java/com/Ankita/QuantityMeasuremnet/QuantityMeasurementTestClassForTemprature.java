@@ -80,6 +80,15 @@ public class QuantityMeasurementTestClassForTemprature {
         Assert.assertFalse(checkEqual);
     }
 
+    @Test
+    public void When212degreeF_AND_100degreeC_ShouldReturnTrue(){
+
+        QuantityMeasurement value1 = new QuantityMeasurement(212,MeasurementTemprature.FAHARANEIT);
+        QuantityMeasurement value2 = new QuantityMeasurement(100,MeasurementTemprature.CELSIUS);
+        boolean checkEqual=value1.compare(value2);
+        Assert.assertTrue(checkEqual);
+    }
+
 
 
 }
