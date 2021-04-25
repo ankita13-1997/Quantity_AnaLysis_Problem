@@ -155,7 +155,7 @@ public class QuantityMeasuremnetTestClassFinal {
 
 
     @Test
-    public void When0cm_Equals_0cmShouldReturnFalse() {
+    public void When0cm_Equals_0cmShouldReturnEquals() {
         QuantityMeasurement value1 =new QuantityMeasurement(0,MeasurementLength.CM);
         QuantityMeasurement value2 =new QuantityMeasurement(0,MeasurementLength.CM);
         Assert.assertEquals(value1,value2);
@@ -176,6 +176,16 @@ public class QuantityMeasuremnetTestClassFinal {
         Assert.assertFalse(isCheck);
 
     }
+
+    @Test
+    public void When0cm_Equals_1cmShouldReturnNotEquals() {
+        QuantityMeasurement value1 =new QuantityMeasurement(0,MeasurementLength.CM);
+        QuantityMeasurement value2 =new QuantityMeasurement(1,MeasurementLength.CM);
+        boolean isCheck =value1.compare(value2);
+        Assert.assertFalse(isCheck);
+    }
+
+
 
 
 
