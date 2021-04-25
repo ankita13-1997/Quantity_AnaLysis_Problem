@@ -78,10 +78,29 @@ public class QuantityMeasurementTestCLass {
     }
 
     @Test
-    public void When0Inch_AND_1FeethouldReturnNotEqual() {
-        Length feet1 = new Length(Length.Unit.FEET,1);
+    public void When1Inch_AND_1FeethouldReturnNotEqual() {
+        Length feet1 = new Length(Length.Unit.FEET,1.0);
         Length inch1 =new Length(Length.Unit.INCH,1);
         Assert.assertNotEquals(feet1,inch1);
+    }
+
+
+    @Test
+    public void When0Inch_AND_0FeethouldReturnEqual() {
+        Length feet1 = new Length(Length.Unit.FEET,0.0);
+        Length inch1 = new Length(Length.Unit.INCH,0.0);
+        boolean checkIt = feet1.compareTo(inch1);
+        Assert.assertTrue(checkIt);
+
+    }
+
+    @Test
+    public void When1Inch_AND_1FeethouldReturnEqual() {
+        Length feet1 = new Length(Length.Unit.FEET,1.0);
+        Length inch1 = new Length(Length.Unit.INCH,1.0);
+        boolean checkIt = feet1.compareTo(inch1);
+        Assert.assertFalse(checkIt);
+
     }
 
 }
