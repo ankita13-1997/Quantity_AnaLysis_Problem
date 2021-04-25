@@ -28,5 +28,13 @@ public class QuantityyMeasurementTestClassForWeight {
 
     }
 
+    @Test
+    public void When1kg_AND_1kgValueShouldReturnEQUAL(){
+        QuantityMeasurement value1 =new QuantityMeasurement(0,MeasurementWeight.KG);
+        QuantityMeasurement value2 =new QuantityMeasurement(1,MeasurementWeight.KG);
+        Assert.assertNotEquals(value1,value2);
+
+    }
+
 
 }
