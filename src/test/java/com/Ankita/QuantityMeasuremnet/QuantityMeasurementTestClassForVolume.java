@@ -117,6 +117,13 @@ public class QuantityMeasurementTestClassForVolume {
         Assert.assertFalse(checkIt);
     }
 
+    @Test
+    public void When0ML_AND_ReferenceValueShouldReturnFalse(){
+        QuantityMeasurement value1 =new QuantityMeasurement(0,MeasurementVolume.MILLILITER);
+        boolean checkIt = value1.equals(0);
+        Assert.assertFalse(checkIt);
+    }
+
 
 
 
