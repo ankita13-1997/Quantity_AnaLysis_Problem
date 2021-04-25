@@ -97,6 +97,12 @@ public class QuantityyMeasurementTestClassForWeight {
 
     }
 
+    @Test
+    public void When0Tone_AND_0ToneShouldReturnEqual(){
+        QuantityMeasurement value1 =new QuantityMeasurement(0,MeasurementWeight.TONE);
+        QuantityMeasurement value2 =new QuantityMeasurement(0,MeasurementWeight.TONE);
+        Assert.assertEquals(value1,value2);
 
+    }
 
 }

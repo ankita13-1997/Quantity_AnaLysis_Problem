@@ -1,6 +1,7 @@
 package com.Ankita.QuantityMeasuremnet;
 
 public enum MeasurementWeight implements MeasurementUnits {
+    TONE(1000*1000),
     KG(1000),
     GRAM(1);
 
