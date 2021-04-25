@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.Ankita.QuantityMeasuremnet.QuantityMeasurementAddition" tests="7" skipped="0" failures="0" errors="0" timestamp="2021-04-25T22:26:58" hostname="DESKTOP-FCSHS5L" time="0.027">
+  <properties/>
+  <testcase name="given_2in_and2inch_add_give4inch" classname="com.Ankita.QuantityMeasuremnet.QuantityMeasurementAddition" time="0.007"/>
+  <testcase name="given_1ton_and1000gram_add_give7point1001kg" classname="com.Ankita.QuantityMeasuremnet.QuantityMeasurementAddition" time="0.011"/>
+  <testcase name="given_2inch_and2point5cm_add_give3inch" classname="com.Ankita.QuantityMeasuremnet.QuantityMeasurementAddition" time="0.001"/>
+  <testcase name="given_1Litre_and1000ML_add_give7point2Litres" classname="com.Ankita.QuantityMeasuremnet.QuantityMeasurementAddition" time="0.002"/>
+  <testcase name="given_1gallon_and3point78lt_add_give7point57inch" classname="com.Ankita.QuantityMeasuremnet.QuantityMeasurementAddition" time="0.0"/>
+  <testcase name="given_1feet_and1feet_add_give24inch" classname="com.Ankita.QuantityMeasuremnet.QuantityMeasurementAddition" time="0.001"/>
+  <testcase name="given_1feet_and2inch_add_give14inch" classname="com.Ankita.QuantityMeasuremnet.QuantityMeasurementAddition" time="0.001"/>
+  <system-out><![CDATA[1001000.0
+7.58
+2000.0
+7560.0
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

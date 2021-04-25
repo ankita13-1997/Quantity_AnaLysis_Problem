@@ -22,6 +22,14 @@ public class QuantityMeasurement {
                 thatUnitValue.units.convertToBaseUnit(thatUnitValue.value))==0;
     }
 
+    public double addValues(QuantityMeasurement thatUnitValue){
+        if (this.units.getClass() != thatUnitValue.units.getClass()  ||
+             !this.units.supportAddition() || !thatUnitValue.units.supportAddition())
+            return 0.0;
+        return this.units.convertToBaseUnit(this.value)+thatUnitValue.units.convertToBaseUnit(thatUnitValue.value);
+
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;

@@ -8,11 +8,12 @@ import java.util.Objects;
      private final double value;
      private final Unit unit;
      private static final double FEET_TO_INCH = 12;
-
+     private MeasurementUnits units;
 
 
      public enum Unit{
         FEET,
+         CM,
         INCH;
     }
     public Length(Unit unit,double value) {
@@ -28,6 +29,8 @@ import java.util.Objects;
 
          return false;
      }
+
+
 
     @Override
     public boolean equals(Object o) {
