@@ -97,10 +97,19 @@ public class QuantityMeasuremnetTestClassFinal {
     }
 
     @Test
-    public void When0yard_AND_0YardShouldReturnTrue() {
+    public void When0yard_AND_0YardShouldReturnEquals() {
         QuantityMeasurement value1 =new QuantityMeasurement(0,MeasurementLength.YARD);
         QuantityMeasurement value2 =new QuantityMeasurement(0,MeasurementLength.YARD);
         Assert.assertEquals(value1,value2);
     }
+
+    @Test
+    public void When0yard_AND_nullShouldReturnFalse() {
+        QuantityMeasurement value1 =new QuantityMeasurement(0,MeasurementLength.YARD);
+        boolean checkIt = value1.equals(null);
+        Assert.assertFalse(checkIt);
+    }
+
+
 
 }
