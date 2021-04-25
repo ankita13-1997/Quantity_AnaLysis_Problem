@@ -87,6 +87,16 @@ public class QuantityyMeasurementTestClassForWeight {
 
     }
 
+    @Test
+    public void When1Kilogram_AND_1000gramValueShouldReturnTrue(){
+        QuantityMeasurement value1 =new QuantityMeasurement(1,MeasurementWeight.KG);
+        QuantityMeasurement value2 =new QuantityMeasurement(1000,MeasurementWeight.GRAM);
+        boolean ischeck=value1.compare(value2);
+        Assert.assertTrue(ischeck);
+
+
+    }
+
 
 
 }
