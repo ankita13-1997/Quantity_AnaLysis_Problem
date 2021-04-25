@@ -40,7 +40,7 @@ public class QuantityMeasurementTestClassForVolume {
     }
 
     @Test
-    public void When0Liters_AND_0LitressShouldReturnNotEqual(){
+    public void When0Liters_AND_0LitressShouldReturnEqual(){
         QuantityMeasurement value1 =new QuantityMeasurement(0,MeasurementVolume.LITRE);
         QuantityMeasurement value2 =new QuantityMeasurement(0,MeasurementVolume.LITRE);
         Assert.assertEquals(value1,value2);
@@ -62,6 +62,14 @@ public class QuantityMeasurementTestClassForVolume {
         boolean checkit=value1.equals(0);
         Assert.assertFalse(checkit);
 
+
+    }
+
+    @Test
+    public void When0Litre_AND_1LitreShouldReturnNotEqual(){
+        QuantityMeasurement value1 =new QuantityMeasurement(0,MeasurementVolume.LITRE);
+        QuantityMeasurement value2 =new QuantityMeasurement(1,MeasurementVolume.LITRE);
+        Assert.assertNotEquals(value1,value2);
 
     }
 
