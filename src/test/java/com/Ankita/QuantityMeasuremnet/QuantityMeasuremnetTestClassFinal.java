@@ -185,6 +185,16 @@ public class QuantityMeasuremnetTestClassFinal {
         Assert.assertFalse(isCheck);
     }
 
+    @Test
+    public void When0inch_Equals_0cmShouldReturnEquals() {
+        QuantityMeasurement value1 =new QuantityMeasurement(0,MeasurementLength.INCH);
+        QuantityMeasurement value2 =new QuantityMeasurement(0,MeasurementLength.CM);
+        boolean isCheck =value1.compare(value2);
+        Assert.assertTrue(isCheck);
+    }
+
+    
+
 
 
 
