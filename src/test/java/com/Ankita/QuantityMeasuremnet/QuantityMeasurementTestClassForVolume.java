@@ -91,6 +91,14 @@ public class QuantityMeasurementTestClassForVolume {
 
     }
 
+    @Test
+    public void When1gallons_AND_3point78litreShouldReturnEqual(){
+        QuantityMeasurement value1 =new QuantityMeasurement(1,MeasurementVolume.GALLON);
+        QuantityMeasurement value2 =new QuantityMeasurement(3.78,MeasurementVolume.LITRE);
+        boolean checkit=value1.compare(value2);
+        Assert.assertTrue(checkit);
+
+    }
 
 
 
