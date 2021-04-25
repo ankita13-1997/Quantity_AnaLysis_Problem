@@ -52,6 +52,14 @@ public class QuantityyMeasurementTestClassForWeight {
 
     }
 
+    @Test
+    public void When0gram_AND_ReferenceValueShouldReturnfalse(){
+        QuantityMeasurement value1 =new QuantityMeasurement(0,MeasurementWeight.GRAM);
+        boolean ischeck=value1.equals(0);
+        Assert.assertFalse(ischeck);
+
+    }
+
 
 
 }
