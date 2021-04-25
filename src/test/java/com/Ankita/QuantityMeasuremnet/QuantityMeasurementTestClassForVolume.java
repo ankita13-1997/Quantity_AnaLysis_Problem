@@ -31,7 +31,16 @@ public class QuantityMeasurementTestClassForVolume {
 
     }
 
-    
+    @Test
+    public void When0Gallons_AND_1GallonsShouldReturnNotEqual(){
+        QuantityMeasurement value1 =new QuantityMeasurement(0,MeasurementVolume.GALLON);
+        QuantityMeasurement value2 =new QuantityMeasurement(1,MeasurementVolume.GALLON);
+        Assert.assertNotEquals(value1,value2);
+
+    }
+
+
+
 
 
 
