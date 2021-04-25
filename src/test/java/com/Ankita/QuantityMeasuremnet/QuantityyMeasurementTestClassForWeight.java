@@ -36,5 +36,13 @@ public class QuantityyMeasurementTestClassForWeight {
 
     }
 
+    @Test
+    public void When0grams_AND_0gramsShouldReturnEqual(){
+        QuantityMeasurement value1 =new QuantityMeasurement(0,MeasurementWeight.GRAM);
+        QuantityMeasurement value2 =new QuantityMeasurement(0,MeasurementWeight.GRAM);
+        Assert.assertEquals(value1,value2);
+
+    }
+
 
 }

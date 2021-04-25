@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.Ankita.QuantityMeasuremnet.QuantityyMeasurementTestClassForWeight" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-04-25T16:02:34" hostname="DESKTOP-FCSHS5L" time="0.009">
+<testsuite name="com.Ankita.QuantityMeasuremnet.QuantityyMeasurementTestClassForWeight" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-04-25T16:04:15" hostname="DESKTOP-FCSHS5L" time="0.009">
   <properties/>
-  <testcase name="When1kg_AND_1kgValueShouldReturnEQUAL" classname="com.Ankita.QuantityMeasuremnet.QuantityyMeasurementTestClassForWeight" time="0.009"/>
+  <testcase name="When0grams_AND_0gramsShouldReturnEqual" classname="com.Ankita.QuantityMeasuremnet.QuantityyMeasurementTestClassForWeight" time="0.009"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
