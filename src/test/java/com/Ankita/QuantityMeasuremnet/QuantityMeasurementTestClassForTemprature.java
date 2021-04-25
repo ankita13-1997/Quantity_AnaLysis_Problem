@@ -29,5 +29,14 @@ public class QuantityMeasurementTestClassForTemprature {
         Assert.assertFalse(checkEqual);
     }
 
+    @Test
+    public void When1Celcius_AND_1CelciusShouldReturnTrue(){
+
+        QuantityMeasurement value1 = new QuantityMeasurement(1,MeasurementTemprature.CELSIUS);
+        QuantityMeasurement value2 = new QuantityMeasurement(1,MeasurementTemprature.CELSIUS);
+        boolean checkEqual=value1.compare(value2);
+        Assert.assertTrue(checkEqual);
+    }
+
 
 }
