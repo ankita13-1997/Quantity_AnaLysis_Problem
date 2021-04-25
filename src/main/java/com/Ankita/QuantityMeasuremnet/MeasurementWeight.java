@@ -12,7 +12,7 @@ public enum MeasurementWeight implements MeasurementUnits {
 
     @Override
     public double convertToBaseUnit(double value) {
-        return 0;
+        return value*convertion_value;
     }
 
     @Override
