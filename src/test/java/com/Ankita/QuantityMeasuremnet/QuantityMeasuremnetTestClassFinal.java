@@ -116,6 +116,12 @@ public class QuantityMeasuremnetTestClassFinal {
         Assert.assertFalse(checkIt);
     }
 
+    @Test
+    public void When0yard_AND_1YardShouldReturnEquals() {
+        QuantityMeasurement value1 =new QuantityMeasurement(0,MeasurementLength.YARD);
+        QuantityMeasurement value2 =new QuantityMeasurement(1,MeasurementLength.YARD);
+        Assert.assertNotEquals(value1,value2);
+    }
 
 
 }
