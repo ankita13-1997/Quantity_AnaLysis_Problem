@@ -12,5 +12,13 @@ public class QuantityyMeasurementTestClassForWeight {
 
     }
 
+    @Test
+    public void When0Kg_AND_NullShouldReturnfalse(){
+        QuantityMeasurement value1 =new QuantityMeasurement(0,MeasurementWeight.KG);
+        boolean ischeck=value1.equals(null);
+        Assert.assertFalse(ischeck);
+
+    }
+
 
 }
