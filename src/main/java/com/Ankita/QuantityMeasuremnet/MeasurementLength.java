@@ -21,7 +21,7 @@ public enum MeasurementLength implements MeasurementUnits {
 
     @Override
     public boolean supportAddition() {
-        return false;
+        return true;
     }
 
 }
