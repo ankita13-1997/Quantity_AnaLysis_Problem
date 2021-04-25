@@ -161,6 +161,14 @@ public class QuantityMeasuremnetTestClassFinal {
         Assert.assertEquals(value1,value2);
     }
 
+    @Test
+    public void When0cm_AND_NUllShouldReturnFalse() {
+        QuantityMeasurement inch1 = new QuantityMeasurement(0,MeasurementLength.CM);
+        boolean isCheck=inch1.equals(null);
+        Assert.assertFalse(isCheck);
+
+    }
+
 
 
 
