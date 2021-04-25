@@ -96,6 +96,9 @@ public class QuantityMeasuremnetTestClassFinal {
 
     }
 
+
+    /*--------------------------------------------------------------------------------------------------------------*/
+
     @Test
     public void When0yard_AND_0YardShouldReturnEquals() {
         QuantityMeasurement value1 =new QuantityMeasurement(0,MeasurementLength.YARD);
@@ -146,6 +149,16 @@ public class QuantityMeasuremnetTestClassFinal {
         QuantityMeasurement value2 =new QuantityMeasurement(1,MeasurementLength.YARD);
         boolean checkIt=value1.compare(value2);
         Assert.assertTrue(checkIt);
+    }
+
+  /*---------------------------------------------------------------------------------------------------------------*/
+
+
+    @Test
+    public void When0cm_Equals_0cmShouldReturnFalse() {
+        QuantityMeasurement value1 =new QuantityMeasurement(0,MeasurementLength.CM);
+        QuantityMeasurement value2 =new QuantityMeasurement(0,MeasurementLength.CM);
+        Assert.assertEquals(value1,value2);
     }
 
 
