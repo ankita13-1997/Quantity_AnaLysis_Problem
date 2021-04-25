@@ -3,7 +3,7 @@ package com.Ankita.QuantityMeasuremnet;
 import org.junit.Assert;
 import org.junit.Test;
 
-public class QuantityMeasuremnetTestClassFinal {
+public class QuantityMeasuremnetTestClassLength {
 
     @Test
     public void When0Feet_AND_0FeetShouldReturnTrue() {
