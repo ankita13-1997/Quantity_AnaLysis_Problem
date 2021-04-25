@@ -140,6 +140,14 @@ public class QuantityMeasuremnetTestClassFinal {
         Assert.assertFalse(checkIt);
     }
 
+    @Test
+    public void When3Feet_Equals_1YardShouldReturnFalse() {
+        QuantityMeasurement value1 =new QuantityMeasurement(3,MeasurementLength.FEET);
+        QuantityMeasurement value2 =new QuantityMeasurement(1,MeasurementLength.YARD);
+        boolean checkIt=value1.compare(value2);
+        Assert.assertTrue(checkIt);
+    }
+
 
 
 
