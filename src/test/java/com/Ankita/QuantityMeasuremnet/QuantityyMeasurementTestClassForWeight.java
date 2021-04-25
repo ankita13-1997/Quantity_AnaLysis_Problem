@@ -132,9 +132,19 @@ public class QuantityyMeasurementTestClassForWeight {
     @Test
     public void When0Tone_AND_0KgValueShouldReturnEQUAL(){
         QuantityMeasurement value1 =new QuantityMeasurement(0,MeasurementWeight.TONE);
-        QuantityMeasurement value2 =new QuantityMeasurement(0,MeasurementWeight.TONE);
+        QuantityMeasurement value2 =new QuantityMeasurement(0,MeasurementWeight.KG);
         boolean ischeck=value1.compare(value2);
         Assert.assertTrue(ischeck);
+
+
+    }
+
+    @Test
+    public void When1Tone_AND_1KgValueShouldReturnEQUAL(){
+        QuantityMeasurement value1 =new QuantityMeasurement(1,MeasurementWeight.TONE);
+        QuantityMeasurement value2 =new QuantityMeasurement(1,MeasurementWeight.KG);
+        boolean ischeck=value1.compare(value2);
+        Assert.assertFalse(ischeck);
 
 
     }
