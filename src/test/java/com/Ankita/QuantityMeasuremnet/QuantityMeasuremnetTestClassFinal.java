@@ -163,8 +163,16 @@ public class QuantityMeasuremnetTestClassFinal {
 
     @Test
     public void When0cm_AND_NUllShouldReturnFalse() {
-        QuantityMeasurement inch1 = new QuantityMeasurement(0,MeasurementLength.CM);
-        boolean isCheck=inch1.equals(null);
+        QuantityMeasurement value1 = new QuantityMeasurement(0,MeasurementLength.CM);
+        boolean isCheck=value1.equals(null);
+        Assert.assertFalse(isCheck);
+
+    }
+
+    @Test
+    public void When0cm_AND_ReferenceValueShouldReturnFalse() {
+        QuantityMeasurement value1 = new QuantityMeasurement(0,MeasurementLength.CM);
+        boolean isCheck=value1.equals(0);
         Assert.assertFalse(isCheck);
 
     }
