@@ -30,9 +30,9 @@ public class QuantityyMeasurementTestClassForWeight {
 
     @Test
     public void When1kg_AND_1kgValueShouldReturnEQUAL(){
-        QuantityMeasurement value1 =new QuantityMeasurement(0,MeasurementWeight.KG);
+        QuantityMeasurement value1 =new QuantityMeasurement(1,MeasurementWeight.KG);
         QuantityMeasurement value2 =new QuantityMeasurement(1,MeasurementWeight.KG);
-        Assert.assertNotEquals(value1,value2);
+        Assert.assertEquals(value1,value2);
 
     }
 
@@ -57,6 +57,14 @@ public class QuantityyMeasurementTestClassForWeight {
         QuantityMeasurement value1 =new QuantityMeasurement(0,MeasurementWeight.GRAM);
         boolean ischeck=value1.equals(0);
         Assert.assertFalse(ischeck);
+
+    }
+
+    @Test
+    public void When1gram_AND_1gramValueShouldReturnEQUAL(){
+        QuantityMeasurement value1 =new QuantityMeasurement(1,MeasurementWeight.KG);
+        QuantityMeasurement value2 =new QuantityMeasurement(1,MeasurementWeight.KG);
+        Assert.assertEquals(value1,value2);
 
     }
 
