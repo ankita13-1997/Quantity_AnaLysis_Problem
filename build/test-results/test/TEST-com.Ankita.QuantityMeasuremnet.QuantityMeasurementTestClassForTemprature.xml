@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.Ankita.QuantityMeasuremnet.QuantityMeasurementTestClassForTemprature" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-04-25T19:37:45" hostname="DESKTOP-FCSHS5L" time="0.009">
+<testsuite name="com.Ankita.QuantityMeasuremnet.QuantityMeasurementTestClassForTemprature" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-04-25T19:40:44" hostname="DESKTOP-FCSHS5L" time="0.009">
   <properties/>
-  <testcase name="When1Celcius_AND_1CelciusShouldReturnTrue" classname="com.Ankita.QuantityMeasuremnet.QuantityMeasurementTestClassForTemprature" time="0.009"/>
+  <testcase name="When0Farahneight_AND_0FarahneightShouldReturnEqual" classname="com.Ankita.QuantityMeasuremnet.QuantityMeasurementTestClassForTemprature" time="0.009"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
