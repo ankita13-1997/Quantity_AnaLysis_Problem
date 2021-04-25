@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.Ankita.QuantityMeasuremnet.QuantityMeasurementTestClassForVolume" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-04-25T14:57:21" hostname="DESKTOP-FCSHS5L" time="0.007">
+<testsuite name="com.Ankita.QuantityMeasuremnet.QuantityMeasurementTestClassForVolume" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-04-25T15:01:05" hostname="DESKTOP-FCSHS5L" time="0.007">
   <properties/>
-  <testcase name="When1gallons_AND_3point78litreShouldReturnEqual" classname="com.Ankita.QuantityMeasuremnet.QuantityMeasurementTestClassForVolume" time="0.007"/>
+  <testcase name="When0ML_AND_0MLShouldReturnEqual" classname="com.Ankita.QuantityMeasuremnet.QuantityMeasurementTestClassForVolume" time="0.007"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

@@ -1,8 +1,9 @@
 package com.Ankita.QuantityMeasuremnet;
 
 public enum MeasurementVolume implements MeasurementUnits{
-   GALLON(3.78),
-   LITRE(1);
+   GALLON(3.78*1000),
+   LITRE(1000),
+   MILLILITER(1);
 
     private final double convertion_value;
 

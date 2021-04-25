@@ -100,6 +100,16 @@ public class QuantityMeasurementTestClassForVolume {
 
     }
 
+    /*----------------------------------------------------------------------------------------------------------*/
+
+    @Test
+    public void When0ML_AND_0MLShouldReturnEqual(){
+        QuantityMeasurement value1 =new QuantityMeasurement(0,MeasurementVolume.MILLILITER);
+        QuantityMeasurement value2 =new QuantityMeasurement(0,MeasurementVolume.MILLILITER);
+        Assert.assertEquals(value1,value2);
+
+    }
+
 
 
 
