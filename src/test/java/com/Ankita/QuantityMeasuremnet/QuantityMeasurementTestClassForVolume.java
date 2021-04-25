@@ -22,6 +22,17 @@ public class QuantityMeasurementTestClassForVolume {
 
     }
 
+    @Test
+    public void When0Gallons_AND_ReferenceValueShouldReturnFalse(){
+        QuantityMeasurement value1 =new QuantityMeasurement(0,MeasurementVolume.GALLON);
+        boolean ischeck=value1.equals(0);
+        Assert.assertFalse(ischeck);
+
+
+    }
+
+    
+
 
 
 }
