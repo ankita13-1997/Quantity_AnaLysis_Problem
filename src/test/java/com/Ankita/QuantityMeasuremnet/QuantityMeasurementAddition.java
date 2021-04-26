@@ -4,7 +4,7 @@ import org.junit.Assert;
 import org.junit.Test;
 
 public class QuantityMeasurementAddition {
-    Boolean n =false;
+
     @Test
     public void given_2in_and2inch_add_give4inch(){
 

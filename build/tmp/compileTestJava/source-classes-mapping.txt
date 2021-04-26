@@ -6,7 +6,5 @@ com/Ankita/QuantityMeasuremnet/QuantityMeasurementTestClassForVolume.java
  com.Ankita.QuantityMeasuremnet.QuantityMeasurementTestClassForVolume
 com/Ankita/QuantityMeasuremnet/QuantityMeasuremnetTestClassLength.java
  com.Ankita.QuantityMeasuremnet.QuantityMeasuremnetTestClassLength
-com/Ankita/QuantityMeasuremnet/QuantityMeasurementTestCLass.java
- com.Ankita.QuantityMeasuremnet.QuantityMeasurementTestCLass
 com/Ankita/QuantityMeasuremnet/QuantityMeasurementAddition.java
  com.Ankita.QuantityMeasuremnet.QuantityMeasurementAddition

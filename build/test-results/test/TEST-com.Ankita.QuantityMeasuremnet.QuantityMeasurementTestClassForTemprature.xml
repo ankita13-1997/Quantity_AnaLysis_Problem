@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.Ankita.QuantityMeasuremnet.QuantityMeasurementTestClassForTemprature" tests="10" skipped="0" failures="0" errors="0" timestamp="2021-04-26T08:30:10" hostname="DESKTOP-FCSHS5L" time="0.165">
+  <properties/>
+  <testcase name="When0Celcius_AND_0CelciusShouldReturnEqual" classname="com.Ankita.QuantityMeasuremnet.QuantityMeasurementTestClassForTemprature" time="0.04"/>
+  <testcase name="When1Celcius_AND_1CelciusShouldReturnTrue" classname="com.Ankita.QuantityMeasuremnet.QuantityMeasurementTestClassForTemprature" time="0.003"/>
+  <testcase name="When0Farahneight_AND_0FarahneightShouldReturnEqual" classname="com.Ankita.QuantityMeasuremnet.QuantityMeasurementTestClassForTemprature" time="0.006"/>
+  <testcase name="When0celsius_AND_refrenceValueShouldReturnFalse" classname="com.Ankita.QuantityMeasuremnet.QuantityMeasurementTestClassForTemprature" time="0.004"/>
+  <testcase name="When0degreeF_AND_0degreeCShouldReturnFalse" classname="com.Ankita.QuantityMeasuremnet.QuantityMeasurementTestClassForTemprature" time="0.04"/>
+  <testcase name="When212degreeF_AND_100degreeC_ShouldReturnTrue" classname="com.Ankita.QuantityMeasuremnet.QuantityMeasurementTestClassForTemprature" time="0.006"/>
+  <testcase name="When0degreeF_AND_refrenceValueShouldReturnFalse" classname="com.Ankita.QuantityMeasuremnet.QuantityMeasurementTestClassForTemprature" time="0.006"/>
+  <testcase name="When0celsius_AND_nullShouldReturnFalse" classname="com.Ankita.QuantityMeasuremnet.QuantityMeasurementTestClassForTemprature" time="0.002"/>
+  <testcase name="When1degreeF_AND_1degreeFShouldReturnTrue" classname="com.Ankita.QuantityMeasuremnet.QuantityMeasurementTestClassForTemprature" time="0.003"/>
+  <testcase name="When0degreeF_AND_nullShouldReturnFalse" classname="com.Ankita.QuantityMeasuremnet.QuantityMeasurementTestClassForTemprature" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

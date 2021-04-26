@@ -1,7 +1,7 @@
 com/Ankita/QuantityMeasuremnet/QuantityMeasurement.java
  com.Ankita.QuantityMeasuremnet.QuantityMeasurement
-com/Ankita/QuantityMeasuremnet/Inch.java
- com.Ankita.QuantityMeasuremnet.Inch
+com/Ankita/QuantityMeasuremnet/MeasurementLength.java
+ com.Ankita.QuantityMeasuremnet.MeasurementLength
 com/Ankita/QuantityMeasuremnet/MeasurementWeight.java
  com.Ankita.QuantityMeasuremnet.MeasurementWeight
 com/Ankita/QuantityMeasuremnet/MeasurementUnits.java
@@ -10,8 +10,3 @@ com/Ankita/QuantityMeasuremnet/MeasurementTemprature.java
  com.Ankita.QuantityMeasuremnet.MeasurementTemprature
 com/Ankita/QuantityMeasuremnet/MeasurementVolume.java
  com.Ankita.QuantityMeasuremnet.MeasurementVolume
-com/Ankita/QuantityMeasuremnet/MeasurementLength.java
- com.Ankita.QuantityMeasuremnet.MeasurementLength
-com/Ankita/QuantityMeasuremnet/Length.java
- com.Ankita.QuantityMeasuremnet.Length
- com.Ankita.QuantityMeasuremnet.Length$Unit
