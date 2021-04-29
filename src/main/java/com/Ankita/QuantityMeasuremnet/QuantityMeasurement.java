@@ -20,6 +20,7 @@ public class QuantityMeasurement {
 
         return Double.compare(this.units.convertToBaseUnit(this.value),
                 thatUnitValue.units.convertToBaseUnit(thatUnitValue.value))==0;
+
     }
 
     public double addValues(QuantityMeasurement thatUnitValue){

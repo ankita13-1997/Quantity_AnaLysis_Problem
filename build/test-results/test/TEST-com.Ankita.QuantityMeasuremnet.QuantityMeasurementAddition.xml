@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.Ankita.QuantityMeasuremnet.QuantityMeasurementAddition" tests="7" skipped="0" failures="0" errors="0" timestamp="2021-04-26T08:30:10" hostname="DESKTOP-FCSHS5L" time="0.085">
+<testsuite name="com.Ankita.QuantityMeasuremnet.QuantityMeasurementAddition" tests="7" skipped="0" failures="0" errors="0" timestamp="2021-04-29T20:30:56" hostname="DESKTOP-FCSHS5L" time="0.048">
   <properties/>
-  <testcase name="given_2in_and2inch_add_give4inch" classname="com.Ankita.QuantityMeasuremnet.QuantityMeasurementAddition" time="0.016"/>
-  <testcase name="given_1ton_and1000gram_add_give7point1001kg" classname="com.Ankita.QuantityMeasuremnet.QuantityMeasurementAddition" time="0.03"/>
+  <testcase name="given_2in_and2inch_add_give4inch" classname="com.Ankita.QuantityMeasuremnet.QuantityMeasurementAddition" time="0.013"/>
+  <testcase name="given_1ton_and1000gram_add_give7point1001kg" classname="com.Ankita.QuantityMeasuremnet.QuantityMeasurementAddition" time="0.019"/>
   <testcase name="given_2inch_and2point5cm_add_give3inch" classname="com.Ankita.QuantityMeasuremnet.QuantityMeasurementAddition" time="0.001"/>
-  <testcase name="given_1Litre_and1000ML_add_give7point2Litres" classname="com.Ankita.QuantityMeasuremnet.QuantityMeasurementAddition" time="0.003"/>
+  <testcase name="given_1Litre_and1000ML_add_give7point2Litres" classname="com.Ankita.QuantityMeasuremnet.QuantityMeasurementAddition" time="0.006"/>
   <testcase name="given_1gallon_and3point78lt_add_give7point57inch" classname="com.Ankita.QuantityMeasuremnet.QuantityMeasurementAddition" time="0.001"/>
   <testcase name="given_1feet_and1feet_add_give24inch" classname="com.Ankita.QuantityMeasuremnet.QuantityMeasurementAddition" time="0.0"/>
   <testcase name="given_1feet_and2inch_add_give14inch" classname="com.Ankita.QuantityMeasuremnet.QuantityMeasurementAddition" time="0.0"/>

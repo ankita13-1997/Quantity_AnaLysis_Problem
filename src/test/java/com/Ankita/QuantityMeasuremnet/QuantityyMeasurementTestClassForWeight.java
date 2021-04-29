@@ -5,7 +5,7 @@ import org.junit.Test;
 
 public class QuantityyMeasurementTestClassForWeight {
     @Test
-    public void When0Kg_AND_0KgShouldReturnEqual(){
+    public void GivenWhen0Kg_AND_0KgShouldReturnEqual(){
         QuantityMeasurement value1 =new QuantityMeasurement(0,MeasurementWeight.KG);
         QuantityMeasurement value2 =new QuantityMeasurement(0,MeasurementWeight.KG);
         Assert.assertEquals(value1,value2);
@@ -13,7 +13,7 @@ public class QuantityyMeasurementTestClassForWeight {
     }
 
     @Test
-    public void When0Kg_AND_NullShouldReturnfalse(){
+    public void GivenWhen0Kg_AND_NullShouldReturnfalse(){
         QuantityMeasurement value1 =new QuantityMeasurement(0,MeasurementWeight.KG);
         boolean ischeck=value1.equals(null);
         Assert.assertFalse(ischeck);
@@ -21,7 +21,7 @@ public class QuantityyMeasurementTestClassForWeight {
     }
 
     @Test
-    public void When0Kg_AND_ReferenceValueShouldReturnfalse(){
+    public void GivenWhen0Kg_AND_ReferenceValueShouldReturnfalse(){
         QuantityMeasurement value1 =new QuantityMeasurement(0,MeasurementWeight.KG);
         boolean ischeck=value1.equals(0);
         Assert.assertFalse(ischeck);
@@ -29,7 +29,7 @@ public class QuantityyMeasurementTestClassForWeight {
     }
 
     @Test
-    public void When1kg_AND_1kgValueShouldReturnEQUAL(){
+    public void GivenWhen1kg_AND_1kgValueShouldReturnEQUAL(){
         QuantityMeasurement value1 =new QuantityMeasurement(1,MeasurementWeight.KG);
         QuantityMeasurement value2 =new QuantityMeasurement(1,MeasurementWeight.KG);
         Assert.assertEquals(value1,value2);
@@ -37,7 +37,7 @@ public class QuantityyMeasurementTestClassForWeight {
     }
 
     @Test
-    public void When0grams_AND_0gramsShouldReturnEqual(){
+    public void GivenWhen0grams_AND_0gramsShouldReturnEqual(){
         QuantityMeasurement value1 =new QuantityMeasurement(0,MeasurementWeight.GRAM);
         QuantityMeasurement value2 =new QuantityMeasurement(0,MeasurementWeight.GRAM);
         Assert.assertEquals(value1,value2);
@@ -45,7 +45,7 @@ public class QuantityyMeasurementTestClassForWeight {
     }
 
     @Test
-    public void When0gram_AND_NullShouldReturnfalse(){
+    public void GivenWhen0gram_AND_NullShouldReturnfalse(){
         QuantityMeasurement value1 =new QuantityMeasurement(0,MeasurementWeight.GRAM);
         boolean ischeck=value1.equals(null);
         Assert.assertFalse(ischeck);
@@ -53,7 +53,7 @@ public class QuantityyMeasurementTestClassForWeight {
     }
 
     @Test
-    public void When0gram_AND_ReferenceValueShouldReturnfalse(){
+    public void GivenWhen0gram_AND_ReferenceValueShouldReturnfalse(){
         QuantityMeasurement value1 =new QuantityMeasurement(0,MeasurementWeight.GRAM);
         boolean ischeck=value1.equals(0);
         Assert.assertFalse(ischeck);
@@ -61,7 +61,7 @@ public class QuantityyMeasurementTestClassForWeight {
     }
 
     @Test
-    public void When1gram_AND_1gramValueShouldReturnEQUAL(){
+    public void GivenWhen1gram_AND_1gramValueShouldReturnEQUAL(){
         QuantityMeasurement value1 =new QuantityMeasurement(1,MeasurementWeight.KG);
         QuantityMeasurement value2 =new QuantityMeasurement(1,MeasurementWeight.KG);
         Assert.assertEquals(value1,value2);
@@ -69,7 +69,7 @@ public class QuantityyMeasurementTestClassForWeight {
     }
 
     @Test
-    public void When0Kilogram_AND_0gramValueShouldReturnTrue(){
+    public void GivenWhen0Kilogram_AND_0gramValueShouldReturnTrue(){
         QuantityMeasurement value1 =new QuantityMeasurement(0,MeasurementWeight.KG);
         QuantityMeasurement value2 =new QuantityMeasurement(0,MeasurementWeight.GRAM);
         boolean ischeck=value1.compare(value2);
@@ -78,7 +78,7 @@ public class QuantityyMeasurementTestClassForWeight {
 
     }
     @Test
-    public void When1Kilogram_AND_1gramValueShouldReturnFalse(){
+    public void GivenWhen1Kilogram_AND_1gramValueShouldReturnFalse(){
         QuantityMeasurement value1 =new QuantityMeasurement(1,MeasurementWeight.KG);
         QuantityMeasurement value2 =new QuantityMeasurement(1,MeasurementWeight.GRAM);
         boolean ischeck=value1.compare(value2);
@@ -88,7 +88,7 @@ public class QuantityyMeasurementTestClassForWeight {
     }
 
     @Test
-    public void When1Kilogram_AND_1000gramValueShouldReturnTrue(){
+    public void GivenWhen1Kilogram_AND_1000gramValueShouldReturnTrue(){
         QuantityMeasurement value1 =new QuantityMeasurement(1,MeasurementWeight.KG);
         QuantityMeasurement value2 =new QuantityMeasurement(1000,MeasurementWeight.GRAM);
         boolean ischeck=value1.compare(value2);
@@ -98,7 +98,7 @@ public class QuantityyMeasurementTestClassForWeight {
     }
 
     @Test
-    public void When0Tone_AND_0ToneShouldReturnEqual(){
+    public void GivenWhen0Tone_AND_0ToneShouldReturnEqual(){
         QuantityMeasurement value1 =new QuantityMeasurement(0,MeasurementWeight.TONE);
         QuantityMeasurement value2 =new QuantityMeasurement(0,MeasurementWeight.TONE);
         Assert.assertEquals(value1,value2);
@@ -106,7 +106,7 @@ public class QuantityyMeasurementTestClassForWeight {
     }
 
     @Test
-    public void When0Tones_AND_NullShouldReturnfalse(){
+    public void GivenWhen0Tones_AND_NullShouldReturnfalse(){
         QuantityMeasurement value1 =new QuantityMeasurement(0,MeasurementWeight.TONE);
         boolean ischeck=value1.equals(null);
         Assert.assertFalse(ischeck);
@@ -114,7 +114,7 @@ public class QuantityyMeasurementTestClassForWeight {
     }
 
     @Test
-    public void When0Tone_AND_ReferenceValueShouldReturnfalse(){
+    public void GivenWhen0Tone_AND_ReferenceValueShouldReturnfalse(){
         QuantityMeasurement value1 =new QuantityMeasurement(0,MeasurementWeight.TONE);
         boolean ischeck=value1.equals(0);
         Assert.assertFalse(ischeck);
@@ -122,7 +122,7 @@ public class QuantityyMeasurementTestClassForWeight {
     }
 
     @Test
-    public void When1Tone_AND_1ToneValueShouldReturnEQUAL(){
+    public void GivenWhen1Tone_AND_1ToneValueShouldReturnEQUAL(){
         QuantityMeasurement value1 =new QuantityMeasurement(1,MeasurementWeight.TONE);
         QuantityMeasurement value2 =new QuantityMeasurement(1,MeasurementWeight.TONE);
         Assert.assertEquals(value1,value2);
@@ -130,7 +130,7 @@ public class QuantityyMeasurementTestClassForWeight {
     }
 
     @Test
-    public void When0Tone_AND_0KgValueShouldReturnEQUAL(){
+    public void GivenWhen0Tone_AND_0KgValueShouldReturnEQUAL(){
         QuantityMeasurement value1 =new QuantityMeasurement(0,MeasurementWeight.TONE);
         QuantityMeasurement value2 =new QuantityMeasurement(0,MeasurementWeight.KG);
         boolean ischeck=value1.compare(value2);
@@ -140,7 +140,7 @@ public class QuantityyMeasurementTestClassForWeight {
     }
 
     @Test
-    public void When1Tone_AND_1KgValueShouldReturnEQUAL(){
+    public void GivenWhen1Tone_AND_1KgValueShouldReturnEQUAL(){
         QuantityMeasurement value1 =new QuantityMeasurement(1,MeasurementWeight.TONE);
         QuantityMeasurement value2 =new QuantityMeasurement(1,MeasurementWeight.KG);
         boolean ischeck=value1.compare(value2);
@@ -150,7 +150,7 @@ public class QuantityyMeasurementTestClassForWeight {
     }
 
     @Test
-    public void When1Tone_AND_1000KgValueShouldReturnEQUAL(){
+    public void GivenWhen1Tone_AND_1000KgValueShouldReturnEQUAL(){
         QuantityMeasurement value1 =new QuantityMeasurement(1,MeasurementWeight.TONE);
         QuantityMeasurement value2 =new QuantityMeasurement(1000,MeasurementWeight.KG);
         boolean ischeck=value1.compare(value2);

@@ -6,7 +6,7 @@ import org.junit.Test;
 public class QuantityMeasurementTestClassForTemprature {
 
     @Test
-    public void When0Celcius_AND_0CelciusShouldReturnEqual() {
+    public void GivenWhen0Celcius_AND_0CelciusShouldReturnEqual() {
 
         QuantityMeasurement value1 = new QuantityMeasurement(0,MeasurementTemprature.CELSIUS);
         QuantityMeasurement value2 = new QuantityMeasurement(0,MeasurementTemprature.CELSIUS);
@@ -16,21 +16,21 @@ public class QuantityMeasurementTestClassForTemprature {
     }
 
     @Test
-    public void When0celsius_AND_nullShouldReturnFalse() {
+    public void GivenWhen0celsius_AND_nullShouldReturnFalse() {
         QuantityMeasurement value1 = new QuantityMeasurement(0,MeasurementTemprature.CELSIUS);
         boolean checkEqual=value1.equals(null);
         Assert.assertFalse(checkEqual);
     }
 
     @Test
-    public void When0celsius_AND_refrenceValueShouldReturnFalse() {
+    public void GivenWhen0celsius_AND_refrenceValueShouldReturnFalse() {
         QuantityMeasurement value1 = new QuantityMeasurement(0,MeasurementTemprature.CELSIUS);
         boolean checkEqual=value1.equals(2.3);
         Assert.assertFalse(checkEqual);
     }
 
     @Test
-    public void When1Celcius_AND_1CelciusShouldReturnTrue(){
+    public void GivenWhen1Celcius_AND_1CelciusShouldReturnTrue(){
 
         QuantityMeasurement value1 = new QuantityMeasurement(1,MeasurementTemprature.CELSIUS);
         QuantityMeasurement value2 = new QuantityMeasurement(1,MeasurementTemprature.CELSIUS);
@@ -39,7 +39,7 @@ public class QuantityMeasurementTestClassForTemprature {
     }
 
     @Test
-    public void When0Farahneight_AND_0FarahneightShouldReturnEqual() {
+    public void GivenWhen0Farahneight_AND_0FarahneightShouldReturnEqual() {
 
         QuantityMeasurement value1 = new QuantityMeasurement(0,MeasurementTemprature.FAHARANEIT);
         QuantityMeasurement value2 = new QuantityMeasurement(0,MeasurementTemprature.FAHARANEIT);
@@ -49,21 +49,21 @@ public class QuantityMeasurementTestClassForTemprature {
     }
 
     @Test
-    public void When0degreeF_AND_nullShouldReturnFalse() {
+    public void GivenWhen0degreeF_AND_nullShouldReturnFalse() {
         QuantityMeasurement value1 = new QuantityMeasurement(0,MeasurementTemprature.FAHARANEIT);
         boolean checkEqual=value1.equals(null);
         Assert.assertFalse(checkEqual);
     }
 
     @Test
-    public void When0degreeF_AND_refrenceValueShouldReturnFalse() {
+    public void GivenWhen0degreeF_AND_refrenceValueShouldReturnFalse() {
         QuantityMeasurement value1 = new QuantityMeasurement(0,MeasurementTemprature.FAHARANEIT);
         boolean checkEqual=value1.equals(2.3);
         Assert.assertFalse(checkEqual);
     }
 
     @Test
-    public void When1degreeF_AND_1degreeFShouldReturnTrue(){
+    public void WhGivenen1degreeF_AND_1degreeFShouldReturnTrue(){
 
         QuantityMeasurement value1 = new QuantityMeasurement(1,MeasurementTemprature.FAHARANEIT);
         QuantityMeasurement value2 = new QuantityMeasurement(1,MeasurementTemprature.FAHARANEIT);
@@ -72,7 +72,7 @@ public class QuantityMeasurementTestClassForTemprature {
     }
 
     @Test
-    public void When0degreeF_AND_0degreeCShouldReturnFalse(){
+    public void GivenWhen0degreeF_AND_0degreeCShouldReturnFalse(){
 
         QuantityMeasurement value1 = new QuantityMeasurement(0,MeasurementTemprature.FAHARANEIT);
         QuantityMeasurement value2 = new QuantityMeasurement(0,MeasurementTemprature.CELSIUS);
@@ -81,7 +81,7 @@ public class QuantityMeasurementTestClassForTemprature {
     }
 
     @Test
-    public void When212degreeF_AND_100degreeC_ShouldReturnTrue(){
+    public void GivenWhen212degreeF_AND_100degreeC_ShouldReturnTrue(){
 
         QuantityMeasurement value1 = new QuantityMeasurement(212,MeasurementTemprature.FAHARANEIT);
         QuantityMeasurement value2 = new QuantityMeasurement(100,MeasurementTemprature.CELSIUS);
