@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.Ankita.QuantityMeasuremnet.QuantityMeasuremnetTestClassLength" tests="25" skipped="0" failures="0" errors="0" timestamp="2021-04-29T20:30:56" hostname="DESKTOP-FCSHS5L" time="0.163">
+<testsuite name="com.Ankita.QuantityMeasuremnet.QuantityMeasuremnetTestClassLength" tests="25" skipped="0" failures="0" errors="0" timestamp="2021-04-30T00:35:24" hostname="DESKTOP-FCSHS5L" time="0.029">
   <properties/>
-  <testcase name="GivenWhen1Feet_AND_1InchShouldReturnEqual" classname="com.Ankita.QuantityMeasuremnet.QuantityMeasuremnetTestClassLength" time="0.006"/>
-  <testcase name="GivenWhen0Inch_AND_ReferenceShouldReturnFalse" classname="com.Ankita.QuantityMeasuremnet.QuantityMeasuremnetTestClassLength" time="0.014"/>
-  <testcase name="GivenWhen0Feet_AND_ReferenceShouldReturnFalse" classname="com.Ankita.QuantityMeasuremnet.QuantityMeasuremnetTestClassLength" time="0.005"/>
-  <testcase name="GivenWhen0yard_AND_1YardShouldReturnNotEquals" classname="com.Ankita.QuantityMeasuremnet.QuantityMeasuremnetTestClassLength" time="0.004"/>
-  <testcase name="GivenWhen1inch_Equals_1cmShouldReturnNotEquals" classname="com.Ankita.QuantityMeasuremnet.QuantityMeasuremnetTestClassLength" time="0.002"/>
-  <testcase name="GivenWhen0Inch_AND_1InchShouldReturnEqual" classname="com.Ankita.QuantityMeasuremnet.QuantityMeasuremnetTestClassLength" time="0.001"/>
-  <testcase name="GivenWhen0inch_Equals_0cmShouldReturnEquals" classname="com.Ankita.QuantityMeasuremnet.QuantityMeasuremnetTestClassLength" time="0.003"/>
-  <testcase name="GivenWhen0Feet_AND_nullShouldReturnFalse" classname="com.Ankita.QuantityMeasuremnet.QuantityMeasuremnetTestClassLength" time="0.01"/>
-  <testcase name="GivenWhen0Feet_AND_OInchShouldReturnEqual" classname="com.Ankita.QuantityMeasuremnet.QuantityMeasuremnetTestClassLength" time="0.002"/>
-  <testcase name="GivenWhen0Feet_AND_0FeetShouldReturnTrue" classname="com.Ankita.QuantityMeasuremnet.QuantityMeasuremnetTestClassLength" time="0.001"/>
-  <testcase name="GivenWhen0yard_AND_nullShouldReturnFalse" classname="com.Ankita.QuantityMeasuremnet.QuantityMeasuremnetTestClassLength" time="0.001"/>
-  <testcase name="GivenWhen0cm_AND_ReferenceValueShouldReturnFalse" classname="com.Ankita.QuantityMeasuremnet.QuantityMeasuremnetTestClassLength" time="0.002"/>
+  <testcase name="GivenWhen1Feet_AND_1InchShouldReturnEqual" classname="com.Ankita.QuantityMeasuremnet.QuantityMeasuremnetTestClassLength" time="0.001"/>
+  <testcase name="GivenWhen0Inch_AND_ReferenceShouldReturnFalse" classname="com.Ankita.QuantityMeasuremnet.QuantityMeasuremnetTestClassLength" time="0.0"/>
+  <testcase name="GivenWhen0Feet_AND_ReferenceShouldReturnFalse" classname="com.Ankita.QuantityMeasuremnet.QuantityMeasuremnetTestClassLength" time="0.0"/>
+  <testcase name="GivenWhen0yard_AND_1YardShouldReturnNotEquals" classname="com.Ankita.QuantityMeasuremnet.QuantityMeasuremnetTestClassLength" time="0.001"/>
+  <testcase name="GivenWhen1inch_Equals_1cmShouldReturnNotEquals" classname="com.Ankita.QuantityMeasuremnet.QuantityMeasuremnetTestClassLength" time="0.0"/>
+  <testcase name="GivenWhen0Inch_AND_1InchShouldReturnEqual" classname="com.Ankita.QuantityMeasuremnet.QuantityMeasuremnetTestClassLength" time="0.0"/>
+  <testcase name="GivenWhen0inch_Equals_0cmShouldReturnEquals" classname="com.Ankita.QuantityMeasuremnet.QuantityMeasuremnetTestClassLength" time="0.001"/>
+  <testcase name="GivenWhen0Feet_AND_nullShouldReturnFalse" classname="com.Ankita.QuantityMeasuremnet.QuantityMeasuremnetTestClassLength" time="0.0"/>
+  <testcase name="GivenWhen0Feet_AND_OInchShouldReturnEqual" classname="com.Ankita.QuantityMeasuremnet.QuantityMeasuremnetTestClassLength" time="0.0"/>
+  <testcase name="GivenWhen0Feet_AND_0FeetShouldReturnTrue" classname="com.Ankita.QuantityMeasuremnet.QuantityMeasuremnetTestClassLength" time="0.0"/>
+  <testcase name="GivenWhen0yard_AND_nullShouldReturnFalse" classname="com.Ankita.QuantityMeasuremnet.QuantityMeasuremnetTestClassLength" time="0.0"/>
+  <testcase name="GivenWhen0cm_AND_ReferenceValueShouldReturnFalse" classname="com.Ankita.QuantityMeasuremnet.QuantityMeasuremnetTestClassLength" time="0.004"/>
   <testcase name="GivenWhen0Feet_AND_1FeetShouldReturnNotEQUAL" classname="com.Ankita.QuantityMeasuremnet.QuantityMeasuremnetTestClassLength" time="0.002"/>
   <testcase name="GivenWhen3Feet_Equals_1YardShouldReturnFalse" classname="com.Ankita.QuantityMeasuremnet.QuantityMeasuremnetTestClassLength" time="0.001"/>
-  <testcase name="GivenWhen1Feet_AND_12InchShouldReturnEqual" classname="com.Ankita.QuantityMeasuremnet.QuantityMeasuremnetTestClassLength" time="0.002"/>
-  <testcase name="GivenWhen0yard_AND_ReferenceShouldReturnFalse" classname="com.Ankita.QuantityMeasuremnet.QuantityMeasuremnetTestClassLength" time="0.003"/>
-  <testcase name="GivenWhen0yard_AND_0YardShouldReturnEquals" classname="com.Ankita.QuantityMeasuremnet.QuantityMeasuremnetTestClassLength" time="0.003"/>
+  <testcase name="GivenWhen1Feet_AND_12InchShouldReturnEqual" classname="com.Ankita.QuantityMeasuremnet.QuantityMeasuremnetTestClassLength" time="0.0"/>
+  <testcase name="GivenWhen0yard_AND_ReferenceShouldReturnFalse" classname="com.Ankita.QuantityMeasuremnet.QuantityMeasuremnetTestClassLength" time="0.001"/>
+  <testcase name="GivenWhen0yard_AND_0YardShouldReturnEquals" classname="com.Ankita.QuantityMeasuremnet.QuantityMeasuremnetTestClassLength" time="0.001"/>
   <testcase name="GivenWhen0Feet_Equals_0YardShouldReturnTrue" classname="com.Ankita.QuantityMeasuremnet.QuantityMeasuremnetTestClassLength" time="0.001"/>
   <testcase name="GivenWhen0cm_Equals_1cmShouldReturnNotEquals" classname="com.Ankita.QuantityMeasuremnet.QuantityMeasuremnetTestClassLength" time="0.0"/>
   <testcase name="GivenWhen0cm_Equals_0cmShouldReturnEquals" classname="com.Ankita.QuantityMeasuremnet.QuantityMeasuremnetTestClassLength" time="0.001"/>
   <testcase name="GivenWhen0cm_AND_NUllShouldReturnFalse" classname="com.Ankita.QuantityMeasuremnet.QuantityMeasuremnetTestClassLength" time="0.001"/>
   <testcase name="GivenWhen0Inch_AND_NUllShouldReturnFalse" classname="com.Ankita.QuantityMeasuremnet.QuantityMeasuremnetTestClassLength" time="0.001"/>
   <testcase name="GivenWhen0Inch_AND_0InchShouldReturnEqual" classname="com.Ankita.QuantityMeasuremnet.QuantityMeasuremnetTestClassLength" time="0.001"/>
-  <testcase name="GivenWhen1Feet_Equals_1YardShouldReturnFalse" classname="com.Ankita.QuantityMeasuremnet.QuantityMeasuremnetTestClassLength" time="0.004"/>
+  <testcase name="GivenWhen1Feet_Equals_1YardShouldReturnFalse" classname="com.Ankita.QuantityMeasuremnet.QuantityMeasuremnetTestClassLength" time="0.001"/>
   <testcase name="GivenWhen2inch_Equals_5point08cmShouldReturnEquals" classname="com.Ankita.QuantityMeasuremnet.QuantityMeasuremnetTestClassLength" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>

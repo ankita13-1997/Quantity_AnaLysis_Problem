@@ -49,7 +49,7 @@ public class QuantityMeasurementTestClassForTemprature {
     }
 
     @Test
-    public void GivenWhen0degreeF_AND_nullShouldReturnFalse() {
+    public void GivenWhen0degreeF_AND_NullShouldReturnFalse() {
         QuantityMeasurement value1 = new QuantityMeasurement(0,MeasurementTemprature.FAHARANEIT);
         boolean checkEqual=value1.equals(null);
         Assert.assertFalse(checkEqual);

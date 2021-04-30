@@ -13,7 +13,7 @@ public class QuantityyMeasurementTestClassForWeight {
     }
 
     @Test
-    public void GivenWhen0Kg_AND_NullShouldReturnfalse(){
+    public void GivenWhen0Kg_AND_NullShouldReturnFalse(){
         QuantityMeasurement value1 =new QuantityMeasurement(0,MeasurementWeight.KG);
         boolean ischeck=value1.equals(null);
         Assert.assertFalse(ischeck);
@@ -21,7 +21,7 @@ public class QuantityyMeasurementTestClassForWeight {
     }
 
     @Test
-    public void GivenWhen0Kg_AND_ReferenceValueShouldReturnfalse(){
+    public void GivenWhen0Kg_AND_ReferenceValueShouldReturnFalse(){
         QuantityMeasurement value1 =new QuantityMeasurement(0,MeasurementWeight.KG);
         boolean ischeck=value1.equals(0);
         Assert.assertFalse(ischeck);
@@ -45,7 +45,7 @@ public class QuantityyMeasurementTestClassForWeight {
     }
 
     @Test
-    public void GivenWhen0gram_AND_NullShouldReturnfalse(){
+    public void GivenWhen0gram_AND_NullShouldReturnFalse(){
         QuantityMeasurement value1 =new QuantityMeasurement(0,MeasurementWeight.GRAM);
         boolean ischeck=value1.equals(null);
         Assert.assertFalse(ischeck);
@@ -53,7 +53,7 @@ public class QuantityyMeasurementTestClassForWeight {
     }
 
     @Test
-    public void GivenWhen0gram_AND_ReferenceValueShouldReturnfalse(){
+    public void GivenWhen0gram_AND_ReferenceValueShouldReturnFalse(){
         QuantityMeasurement value1 =new QuantityMeasurement(0,MeasurementWeight.GRAM);
         boolean ischeck=value1.equals(0);
         Assert.assertFalse(ischeck);

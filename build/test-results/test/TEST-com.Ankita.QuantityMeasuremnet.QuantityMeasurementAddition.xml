@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.Ankita.QuantityMeasuremnet.QuantityMeasurementAddition" tests="7" skipped="0" failures="0" errors="0" timestamp="2021-04-29T20:30:56" hostname="DESKTOP-FCSHS5L" time="0.048">
+<testsuite name="com.Ankita.QuantityMeasuremnet.QuantityMeasurementAddition" tests="7" skipped="0" failures="0" errors="0" timestamp="2021-04-30T00:35:24" hostname="DESKTOP-FCSHS5L" time="0.04">
   <properties/>
-  <testcase name="given_2in_and2inch_add_give4inch" classname="com.Ankita.QuantityMeasuremnet.QuantityMeasurementAddition" time="0.013"/>
-  <testcase name="given_1ton_and1000gram_add_give7point1001kg" classname="com.Ankita.QuantityMeasuremnet.QuantityMeasurementAddition" time="0.019"/>
-  <testcase name="given_2inch_and2point5cm_add_give3inch" classname="com.Ankita.QuantityMeasuremnet.QuantityMeasurementAddition" time="0.001"/>
-  <testcase name="given_1Litre_and1000ML_add_give7point2Litres" classname="com.Ankita.QuantityMeasuremnet.QuantityMeasurementAddition" time="0.006"/>
-  <testcase name="given_1gallon_and3point78lt_add_give7point57inch" classname="com.Ankita.QuantityMeasuremnet.QuantityMeasurementAddition" time="0.001"/>
-  <testcase name="given_1feet_and1feet_add_give24inch" classname="com.Ankita.QuantityMeasuremnet.QuantityMeasurementAddition" time="0.0"/>
-  <testcase name="given_1feet_and2inch_add_give14inch" classname="com.Ankita.QuantityMeasuremnet.QuantityMeasurementAddition" time="0.0"/>
-  <system-out><![CDATA[1001000.0
-7.58
+  <testcase name="given_ValuesInGallonAndLitres_AddToGiveValuesInLitres" classname="com.Ankita.QuantityMeasuremnet.QuantityMeasurementAddition" time="0.015"/>
+  <testcase name="given_ValuesInLitresAndMillilitres_AddToGiveValuesInLitres" classname="com.Ankita.QuantityMeasuremnet.QuantityMeasurementAddition" time="0.001"/>
+  <testcase name="given_ValuesInFeetAndInches_AddToGiveValuesInInch" classname="com.Ankita.QuantityMeasuremnet.QuantityMeasurementAddition" time="0.009"/>
+  <testcase name="given_ValuesInInchAndCM_AddToGiveValuesInInch" classname="com.Ankita.QuantityMeasuremnet.QuantityMeasurementAddition" time="0.002"/>
+  <testcase name="given_ValuesInInches_AddToGiveValuesInInch" classname="com.Ankita.QuantityMeasuremnet.QuantityMeasurementAddition" time="0.002"/>
+  <testcase name="given_ValuesInTonAndGrams_AddToGiveValuesInKg" classname="com.Ankita.QuantityMeasuremnet.QuantityMeasurementAddition" time="0.004"/>
+  <testcase name="given_ValuesInFeet_AddToGiveValuesInInch" classname="com.Ankita.QuantityMeasuremnet.QuantityMeasurementAddition" time="0.002"/>
+  <system-out><![CDATA[7560.0
 2000.0
-7560.0
+7.58
+1001000.0
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

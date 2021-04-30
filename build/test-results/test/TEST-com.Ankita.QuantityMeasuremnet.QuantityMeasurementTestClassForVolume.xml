@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.Ankita.QuantityMeasuremnet.QuantityMeasurementTestClassForVolume" tests="18" skipped="0" failures="0" errors="0" timestamp="2021-04-29T20:30:56" hostname="DESKTOP-FCSHS5L" time="0.103">
+<testsuite name="com.Ankita.QuantityMeasuremnet.QuantityMeasurementTestClassForVolume" tests="18" skipped="0" failures="0" errors="0" timestamp="2021-04-30T00:35:24" hostname="DESKTOP-FCSHS5L" time="0.065">
   <properties/>
-  <testcase name="GivenWhen1ML_AND_1MLShouldReturnTrue" classname="com.Ankita.QuantityMeasuremnet.QuantityMeasurementTestClassForVolume" time="0.001"/>
+  <testcase name="GivenWhen1ML_AND_1MLShouldReturnTrue" classname="com.Ankita.QuantityMeasuremnet.QuantityMeasurementTestClassForVolume" time="0.0"/>
   <testcase name="GivenWhen0Litre_AND_1LitreShouldReturnNotEqual" classname="com.Ankita.QuantityMeasuremnet.QuantityMeasurementTestClassForVolume" time="0.001"/>
   <testcase name="GivenWhen0L_AND_0MLShouldReturnTrue" classname="com.Ankita.QuantityMeasuremnet.QuantityMeasurementTestClassForVolume" time="0.0"/>
-  <testcase name="GivenWhen1L_AND_1MLShouldReturnFalse" classname="com.Ankita.QuantityMeasuremnet.QuantityMeasurementTestClassForVolume" time="0.0"/>
-  <testcase name="GivenWhen0Liters_AND_0LitressShouldReturnEqual" classname="com.Ankita.QuantityMeasuremnet.QuantityMeasurementTestClassForVolume" time="0.001"/>
+  <testcase name="GivenWhen1L_AND_1MLShouldReturnFalse" classname="com.Ankita.QuantityMeasuremnet.QuantityMeasurementTestClassForVolume" time="0.003"/>
+  <testcase name="GivenWhen0Liters_AND_0LitressShouldReturnEqual" classname="com.Ankita.QuantityMeasuremnet.QuantityMeasurementTestClassForVolume" time="0.003"/>
   <testcase name="GivenWhen0Gallons_AND_0GallonsShouldReturnEqual" classname="com.Ankita.QuantityMeasuremnet.QuantityMeasurementTestClassForVolume" time="0.002"/>
-  <testcase name="GivenWhen0ML_AND_0MLShouldReturnEqual" classname="com.Ankita.QuantityMeasuremnet.QuantityMeasurementTestClassForVolume" time="0.013"/>
-  <testcase name="GivenWhen1gallons_AND_3point78litreShouldReturnEqual" classname="com.Ankita.QuantityMeasuremnet.QuantityMeasurementTestClassForVolume" time="0.0"/>
-  <testcase name="GivenWhen0Liters_AND_nullValueShouldReturnFalse" classname="com.Ankita.QuantityMeasuremnet.QuantityMeasurementTestClassForVolume" time="0.003"/>
+  <testcase name="GivenWhen0ML_AND_0MLShouldReturnEqual" classname="com.Ankita.QuantityMeasuremnet.QuantityMeasurementTestClassForVolume" time="0.003"/>
+  <testcase name="GivenWhen1gallons_AND_3point78litreShouldReturnEqual" classname="com.Ankita.QuantityMeasuremnet.QuantityMeasurementTestClassForVolume" time="0.001"/>
+  <testcase name="GivenWhen0Liters_AND_nullValueShouldReturnFalse" classname="com.Ankita.QuantityMeasuremnet.QuantityMeasurementTestClassForVolume" time="0.001"/>
   <testcase name="GivenWhen1L_AND_1000MLShouldReturnTrue" classname="com.Ankita.QuantityMeasuremnet.QuantityMeasurementTestClassForVolume" time="0.002"/>
-  <testcase name="GivenWhen0Gallons_AND_ReferenceValueShouldReturnFalse" classname="com.Ankita.QuantityMeasuremnet.QuantityMeasurementTestClassForVolume" time="0.001"/>
-  <testcase name="GivenWhen0ML_AND_ReferenceValueShouldReturnFalse" classname="com.Ankita.QuantityMeasuremnet.QuantityMeasurementTestClassForVolume" time="0.002"/>
+  <testcase name="GivenWhen0Gallons_AND_ReferenceValueShouldReturnFalse" classname="com.Ankita.QuantityMeasuremnet.QuantityMeasurementTestClassForVolume" time="0.0"/>
+  <testcase name="GivenWhen0ML_AND_ReferenceValueShouldReturnFalse" classname="com.Ankita.QuantityMeasuremnet.QuantityMeasurementTestClassForVolume" time="0.02"/>
   <testcase name="GivenWhen0Liters_AND_refernceValueValueShouldReturnFalse" classname="com.Ankita.QuantityMeasuremnet.QuantityMeasurementTestClassForVolume" time="0.002"/>
   <testcase name="GivenWhen1gallons_AND_1litreShouldReturnNotEqual" classname="com.Ankita.QuantityMeasuremnet.QuantityMeasurementTestClassForVolume" time="0.002"/>
   <testcase name="GivenWhen0Gallons_AND_NullShouldReturnFalse" classname="com.Ankita.QuantityMeasuremnet.QuantityMeasurementTestClassForVolume" time="0.001"/>
-  <testcase name="GivenWhen0Gallons_AND_1GallonsShouldReturnNotEqual" classname="com.Ankita.QuantityMeasuremnet.QuantityMeasurementTestClassForVolume" time="0.004"/>
-  <testcase name="GivenWhen0gallons_AND_0litreShouldReturnEqual" classname="com.Ankita.QuantityMeasuremnet.QuantityMeasurementTestClassForVolume" time="0.002"/>
-  <testcase name="GivenWhen0ML_AND_nullValueShouldReturnFalse" classname="com.Ankita.QuantityMeasuremnet.QuantityMeasurementTestClassForVolume" time="0.002"/>
+  <testcase name="GivenWhen0Gallons_AND_1GallonsShouldReturnNotEqual" classname="com.Ankita.QuantityMeasuremnet.QuantityMeasurementTestClassForVolume" time="0.002"/>
+  <testcase name="GivenWhen0gallons_AND_0litreShouldReturnEqual" classname="com.Ankita.QuantityMeasuremnet.QuantityMeasurementTestClassForVolume" time="0.0"/>
+  <testcase name="GivenWhen0ML_AND_nullValueShouldReturnFalse" classname="com.Ankita.QuantityMeasuremnet.QuantityMeasurementTestClassForVolume" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
